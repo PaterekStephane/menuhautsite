@@ -1,0 +1,31 @@
+nav {
+  background-color: #1E90FF;
+  display: flex;
+  justify-content: space-around;
+  color: #FF4500;
+  font-family: sans;
+  font-weight: bold;
+}
+@media all and (max-width: 640px) {
+  nav {
+    flex-direction: column;
+  }
+}
+div {
+  padding: 5px;
+  flex: 1 1 auto;
+  text-align: center;
+  border: 2px solid white;
+}
+div:hover {
+  background-color: #191970;
+}
+
+footer {
+  background-color: #1E90FF;
+  display: flex;
+  justify-content: space-around;
+  color: #FF4500;
+  font-family: sans;
+  font-weight: bold;
+}
